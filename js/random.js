@@ -3,13 +3,13 @@ function random() {
     var state = document.getElementById("stateId").value;
     var city = document.getElementById("cityId").value;
     if (country.length <= 0) {
-        alert("this field is required");
+        alert("country fields are required");
     }
     if (state.length <= 0) {
-        alert("this field is required");
+        alert("state field are required");
     }
     if (city.length <= 0) {
-        alert("this field is required");
+        alert("city field are required");
 
     } else {
         alert("you are successfully redirected");
